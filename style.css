@@ -1,11 +1,15 @@
 :root {
-    --primary-color: #CE0D05;
-    --primary-dark-color: #800405;
-    --dark-grey-color: #212121;
-    --soft-color: rgb(255, 255, 255);
-    --hard-color: #3b3b3b;
-    --back-color-1:rgb(238, 238, 238);
-    --back-color-2:rgb(242, 242, 242);
+    --primary-color: #f3256f;
+    --primary-soft-color-1: #ef7873;
+    --primary-soft-color-2: #f684af;
+    --dark-grey-color: #3b3638;
+    --hard-color: #000000;
+    --soft-color-1: #f8d0c2;
+    --soft-color-2: #ffdddc;
+    --back-color:#fff4f1;
+    --second-color: #87c9cf;
+    --third-color: #ef753f;
+   
    
 }
 * {
@@ -16,4 +20,36 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto'; 
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 2.9rem;
+}
+p, label, ul {
+    font-size: 1.6rem;
+    color: #f3256f;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+.head-1, .head-2{
+
+    background-color: var(--primary-color);
+    width: 50%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    color: var(--back-color);
+    font-size: 1.4rem;
+    min-height: 100px;
+    min-width: 150px;
+    padding-top: 3.5rem;
+    border-bottom: gray .2rem solid;
+   
 }
